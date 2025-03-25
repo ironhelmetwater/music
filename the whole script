@@ -1,6 +1,22 @@
 local HttpService = game:GetService("HttpService")
 
 -- The URL to the MP3 file from GitHub
+local url = ""
+
+
+-- Save the sound data to a local file
+writefile("", game:HttpGet(url))
+
+print("Sound file saved successfully!")
+local sound = Instance.new('Sound')
+sound.Parent = game.Players.LocalPlayer.Character
+sound.Volume = 1
+sound.SoundId = getcustomasset('')
+sound:Play()
+
+local HttpService = game:GetService("HttpService")
+
+-- The URL to the MP3 file from GitHub
 local url = "https://github.com/ironhelmetwater/music/raw/bd4ca36d856b5ce98e9338ad4c2376872dc56885/Death%20Is%20No%20More%20(Slowed)%20(Official%20Visualizer).mp3"
 
 
