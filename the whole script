@@ -890,7 +890,7 @@ end
 
 for _, message in ipairs(messages) do
     sendMessage(message)
-    wait(1.7) -- Wait time for each message
+    wait(5) -- Wait time for each message
 end
 
 --[[END OF QUOTES]]
