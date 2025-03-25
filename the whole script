@@ -1,17 +1,17 @@
 local HttpService = game:GetService("HttpService")
 
 -- The URL to the MP3 file from GitHub
-local url = ""
+local url = "https://github.com/ironhelmetwater/music/raw/refs/heads/main/The%20Whistle%20of%20Death%20in%204k.mp3"
 
 
 -- Save the sound data to a local file
-writefile("", game:HttpGet(url))
+writefile("The Whistle of Death in 4k.mp3", game:HttpGet(url))
 
 print("Sound file saved successfully!")
 local sound = Instance.new('Sound')
 sound.Parent = game.Players.LocalPlayer.Character
 sound.Volume = 1
-sound.SoundId = getcustomasset('')
+sound.SoundId = getcustomasset('The Whistle of Death in 4k.mp3')
 sound:Play()
 
 local HttpService = game:GetService("HttpService")
