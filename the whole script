@@ -344,7 +344,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
 
-local animationId = 12510170988
+local animationId = 15334974550
 
 
 local player = game.Players.LocalPlayer
@@ -372,12 +372,12 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16515850153"
+AnimAnim.AnimationId = "rbxassetid://15271263467"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0
+local startTime = 0.6
 
 
 Anim:Play()
@@ -386,7 +386,7 @@ Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(1.2)
 
 
     end
@@ -399,7 +399,7 @@ end
 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
-local animationId = 15955393872
+local animationId = 15997042291
 
 
 local player = game.Players.LocalPlayer
@@ -427,7 +427,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://15943915877"
+AnimAnim.AnimationId = "rbxassetid://107649573628906"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -441,7 +441,7 @@ Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(1.5)
 
 
     end
